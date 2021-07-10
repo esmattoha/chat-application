@@ -8,6 +8,7 @@ env.config();
 const {app} = require('./app');
 
 
+// PORT Listening
 app.listen(process.env.PORT,()=>{
     console.log(`Server Running on ${process.env.PORT}`);
 });
